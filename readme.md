@@ -6,7 +6,7 @@
     <h3>Estágio em Análise e Desenvolvimento - São Paulo</h3>
     <p>Este repositório é relacionado ao teste prático para a empresa Target Sistemas.</p>
     <hr />
-    <i>Para acessar o site com as respostas, basta clicar aqui!</i>
+    <i>Para acessar o site com as respostas, basta <a href="https://teste-estagio-target-sistemas.vercel.app/">clicar aqui!</a></i>
 </div>
 
 </br>
