@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2</title>
+    <link href="/style.css" rel="stylesheet" />
+</head>
+<body>
+    <a href="/" style="margin-top: 8px;">Clique para voltar à página inicial</a>
+
+    <h1>Questão 2</h1>
+
+    <h4 style="padding: 8px;">
+        Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência. <br />
+        IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código; <br />
+    </h4>
+
+    <div id="answer-2" class="answer-2">
+        <form id="fibonacci-form" method="post" class="form-fibonacci">
+            <label for="number-input">Digite o número desejado e veja se ele pertence à sequência de Fibonacci:</label>
+            <div class="fibonacci-div">
+                <input type="number" id="number-input" name="number" required>
+                <button type="submit" onclick="getAnswer2()">Checar</button>
+            </div>
+            <div id="fibonacci-check">
+
+            </div>
+        </form>
+    </div>
+
+    <hr />
+
+    <button id="button-answer-2" onclick="getFullAnswer2()">Clique para ver a resposta</button>
+
+    <div id="full-answer-2"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>

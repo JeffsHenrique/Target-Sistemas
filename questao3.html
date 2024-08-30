@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3</title>
+    <link href="/style.css" rel="stylesheet" />
+</head>
+<body>
+    <a href="/" style="margin-top: 8px;">Clique para voltar à página inicial</a>
+
+    <h1>Questão 3</h1>
+
+    <h4 style="padding: 8px;">
+        Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne: <br />
+        • O menor valor de faturamento ocorrido em um dia do mês; <br />
+        • O maior valor de faturamento ocorrido em um dia do mês; <br />
+        • Número de dias no mês em que o valor de faturamento diário foi superior à média mensal. <br />
+        IMPORTANTE: <br/>
+            a) Usar o json ou xml disponível como fonte dos dados do faturamento mensal; <br />
+            b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média; <br />
+
+    </h4>
+
+    <button onclick="seeData()">Ver dados utilizados:</button>
+    <div id="see-data" class="see-data"></div>
+
+    <div class="answer-3">
+        <button id="minor-invoice">Menor valor do faturamento</button>
+        <button id="major-invoice">Maior maior valor do faturamento</button>
+        <button id="average-invoice">Dias de faturamento superior à media mensal</button>
+    </div>
+
+    <p id="answer-3"></p>
+
+    <button id="button-answer-3" onclick="getFullAnswer3()">Clique para ver a resposta</button>
+
+    <div id="full-answer-3"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
